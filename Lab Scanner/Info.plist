@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>This app wants to use your camera.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app would like access to your photo library.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -17,6 +21,11 @@
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
 					<string>Main</string>
+					<key>UISceneClassName</key>
+					<string>&lt;key&gt;NSCameraUsageDescription&lt;/key&gt;
+&lt;string&gt;This app wants to take pictures.&lt;/string&gt;
+&lt;key&gt;NSPhotoLibraryUsageDescription&lt;/key&gt;
+&lt;string&gt;This app wants to use your photos.&lt;/string&gt;</string>
 				</dict>
 			</array>
 		</dict>

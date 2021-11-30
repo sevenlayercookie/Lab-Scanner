@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Lab Scanner
 //
-//  Created by Rebekah Rose on 11/30/21.
+//  Created by Harrison Rose on 11/30/21.
 //
 
 import UIKit
